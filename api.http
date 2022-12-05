@@ -1,0 +1,24 @@
+GET http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title" : "Zorba the greek"
+}
+
+### 
+PUT http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Zorba the one"
+}
+
+###
+DELETE http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
